@@ -133,7 +133,7 @@ class Converter:
 		tuple
 			``(name, type, path)`` tuple.
 		"""
-		type_ = CATEGORY_TO_TYPE[item['category']]
+		type_ = CATEGORY_TO_TYPE[item['category'].lower()]
 		return (item['title'], type_, item['location'])
 
 	def write_search_index(self, index, docset):
