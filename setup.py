@@ -41,11 +41,9 @@ setup(
 	setup_requires=setup_requirements,
 	tests_require=test_requirements,
 	include_package_data=True,
-	# license='',
-	# classifiers='',
-	# keywords=[],
-	# platforms=[],
-	# provides=[],
-	# requires=[],
-	# obsoletes=[],
+	entry_points={
+		'console_scripts': [
+			'documenter2docset = documenter2docset.cli:main',
+		],
+	},
 )
