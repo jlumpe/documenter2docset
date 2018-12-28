@@ -15,6 +15,11 @@ CATEGORY_TO_TYPE = {
 	'page': 'Guide',  # Seems like the most appropriate
 	'section': 'Section',
 	'function': 'Function',
+	'type': 'Type',
+	'macro': 'Macro',
+	'constant': 'Constant',
+	'module': 'Module',
+	'method': 'Method',
 }
 
 
